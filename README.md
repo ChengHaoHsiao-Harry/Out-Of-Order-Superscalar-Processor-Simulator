@@ -46,10 +46,13 @@ This is an simulator to simulate OOO superscalar processor for dynamic instructi
      Instructions per cycle (IPC)
 
 6. In the program:
-The following variable is for debugging purpose, set the debug mode = 1 can view each pipline's instruction, ROB, Issue Queue, and RMT.
-Set "is_check_boolean_mode" = 1 can view if pipeline need to stall.
-Reader can ignore the debug counter as it's for designer to debug at the very begining stage.
-bool is_debug_mode = 0;
-bool is_check_boolean_mode = 0;
-bool is_debug_mode_counter = 0;
-int debug_counter = 110;
+   The following variable is for debugging purpose, set the debug mode = 1 can view each pipline's instruction, ROB, Issue Queue, and RMT.
+   
+   Set "is_check_boolean_mode" = 1 can view if pipeline need to stall.
+   
+   Reader can ignore the debug counter as it's for designer to debug at the very begining stage.
+   
+   bool is_debug_mode = 0;
+   bool is_check_boolean_mode = 0;
+   bool is_debug_mode_counter = 0;
+   int debug_counter = 110;
