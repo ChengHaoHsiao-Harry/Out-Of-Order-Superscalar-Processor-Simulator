@@ -32,6 +32,7 @@ This is an simulator to simulate OOO superscalar processor for dynamic instructi
 4. Output Format:
 
    The simulator provides:
+   
    1.Per-instruction timing information:
      <seq_no> fu{<op_type>} src{<src1>,<src2>} dst{<dst>} FE{<begin-cycle>,<duration>} DE{<begin-cycle>,<duration>} RN{…} RR{…} DI{…} IS{…} EX{…} WB{…} RT{…}
      example:
@@ -44,7 +45,7 @@ This is an simulator to simulate OOO superscalar processor for dynamic instructi
      Total cycles
      Instructions per cycle (IPC)
 
-5. In the program:
+6. In the program:
 The following variable is for debugging purpose, set the debug mode = 1 can view each pipline's instruction, ROB, Issue Queue, and RMT.
 Set "is_check_boolean_mode" = 1 can view if pipeline need to stall.
 Reader can ignore the debug counter as it's for designer to debug at the very begining stage.
