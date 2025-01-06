@@ -1,5 +1,5 @@
 # Out-Of-Order-Superscalar-Processor-Simulator
-This is an simulator to simulate OOO superscalar processor for dynamic instructions scheduling and latency calculation
+This is a simulator to simulate an OOO superscalar processor for dynamic instructions scheduling and latency calculation
 
 1. Type "make" to build.  (Type "make clean" first if you already compiled and want to recompile from scratch.)
 
