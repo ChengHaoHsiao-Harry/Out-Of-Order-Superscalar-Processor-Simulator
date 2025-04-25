@@ -10,14 +10,14 @@ This simulator focus on the dynamic scheduling(i.e., assume perfect branch predi
 2. Run trace reader:
 
    format:
-   ./sim <ROB_SIZE> <IQ_SIZE> <WIDTH> <trace_file>
+   ./sim <ROB_SIZE> <IQ_SIZE> <Bundle_WIDTH> <trace_file>
 
    Parameters:
    ROB_SIZE: Number of entries in the Reorder Buffer
 
    IQ_SIZE: Number of entries in the Issue Queue
    
-   WIDTH: Superscalar width (max instructions per cycle)
+   Bundle_WIDTH: Superscalar width (max instructions per cycle)
    
    trace_file: Input trace file path
 
