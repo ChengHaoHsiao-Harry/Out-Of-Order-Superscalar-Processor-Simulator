@@ -14,8 +14,11 @@ This simulator focus on the dynamic scheduling(i.e., assume perfect branch predi
 
    Parameters:
    ROB_SIZE: Number of entries in the Reorder Buffer
+
    IQ_SIZE: Number of entries in the Issue Queue
+   
    WIDTH: Superscalar width (max instructions per cycle)
+   
    tracefile: Input trace file path
 
    To run without throttling output:
@@ -24,7 +27,7 @@ This simulator focus on the dynamic scheduling(i.e., assume perfect branch predi
    To run with throttling (via "less"):
    ./sim 256 32 4 gcc_trace.txt | less
 
-3. Trace file:
+4. Trace file:
 
    instruction format:
    <PC> <operation_type> <dest_reg> <src1_reg> <src2_reg>
@@ -33,7 +36,7 @@ This simulator focus on the dynamic scheduling(i.e., assume perfect branch predi
    2b642c 2 19 30 -1
 
 
-4. Output Format:
+5. Output Format:
 
    The simulator provides:
    
