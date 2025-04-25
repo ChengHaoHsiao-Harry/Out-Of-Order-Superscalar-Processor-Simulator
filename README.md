@@ -1,7 +1,8 @@
 # Out-Of-Order-Superscalar-Processor-Simulator
 This is a simulator to simulate an OOO superscalar processor for dynamic instructions scheduling and latency calculation
 This simulator focus on the dynamic scheduling(i.e., assume perfect branch predictor -> no recovery for branch misprediction and perfect cache -> no cache miss to get the instruction from lower-level I cache or data from the lower-level D cache.)
-<img width="1590" alt="image" src="https://github.com/user-attachments/assets/38038b7e-ac44-42fe-b8e4-0d8a56c343d1" />
+<img width="1576" alt="image" src="https://github.com/user-attachments/assets/fd70ea84-ef50-4515-8322-409193ed3661" />
+
 
 
 1. Type "make" to build.  (Type "make clean" first if you already compiled and want to recompile from scratch.)
