@@ -9,8 +9,7 @@ This simulator focus on the dynamic scheduling(i.e., assume perfect branch predi
 
 2. Run trace reader:
 
-   format: 
-   ./sim <ROB_SIZE> <IQ_SIZE> <WIDTH> <tracefile>
+   format: ./sim <ROB_SIZE> <IQ_SIZE> <WIDTH> <tracefile>
 
    Parameters:
    ROB_SIZE: Number of entries in the Reorder Buffer
