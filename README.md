@@ -9,7 +9,8 @@ This simulator focus on the dynamic scheduling(i.e., assume perfect branch predi
 
 2. Run trace reader:
 
-   format: ./sim <ROB_SIZE> <IQ_SIZE> <WIDTH> <tracefile>
+   format:
+   ./sim <ROB_SIZE> <IQ_SIZE> <WIDTH> <trace_file>
 
    Parameters:
    ROB_SIZE: Number of entries in the Reorder Buffer
@@ -18,7 +19,7 @@ This simulator focus on the dynamic scheduling(i.e., assume perfect branch predi
    
    WIDTH: Superscalar width (max instructions per cycle)
    
-   tracefile: Input trace file path
+   trace_file: Input trace file path
 
    To run without throttling output:
    ./sim 256 32 4 gcc_trace.txt
